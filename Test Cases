@@ -1,0 +1,60 @@
+# Phase 6 - Test Cases
+
+## Test Case 1
+
+State:
+Resolved
+
+Resolution Notes:
+Filled
+
+Resolution Code:
+Filled
+
+Expected Result:
+Incident should be submitted successfully.
+
+
+## Test Case 2
+
+State:
+Resolved
+
+Resolution Notes:
+Empty
+
+Resolution Code:
+Filled
+
+Expected Result:
+User should be asked to enter Resolution Notes.
+
+
+## Test Case 3
+
+State:
+Resolved
+
+Resolution Notes:
+Filled
+
+Resolution Code:
+Empty
+
+Expected Result:
+User should be asked to enter Resolution Code.
+
+
+## Test Case 4
+
+State:
+In Progress
+
+Resolution Notes:
+Empty
+
+Resolution Code:
+Empty
+
+Expected Result:
+Incident should not require resolution fields.
