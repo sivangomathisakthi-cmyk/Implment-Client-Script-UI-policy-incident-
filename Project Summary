@@ -1,0 +1,39 @@
+# Phase 8 - Project Summary
+
+## Project Title
+Implement Client Script & UI Policy (Incident)
+
+## Platform
+ServiceNow
+
+## Table
+Incident
+
+## Components Used
+
+- Client Script
+- UI Policy
+- UI Policy Action
+- JavaScript
+
+## Client Script Type
+
+onSubmit
+
+## UI Policy Condition
+
+State is Resolved
+
+## Functionality
+
+When an Incident is moved to Resolved state,
+Resolution Notes and Resolution Code are made mandatory.
+
+The Client Script also validates the required values
+before submitting the Incident.
+
+## Outcome
+
+The project improves Incident form validation and
+ensures that required resolution information is
+provided before an Incident is resolved.
