@@ -1,0 +1,22 @@
+# Phase 4 - Create UI Policy
+
+1. Navigate to:
+   User Interface → UI Policies
+2. Click New.
+
+Configure:
+
+Short description:
+Make Resolution Fields Mandatory
+
+Table:
+Incident [incident]
+
+Condition:
+State is Resolved
+
+Active:
+Yes
+
+Reverse if false:
+Yes
