@@ -1,0 +1,23 @@
+# Phase 2 - Create Client Script
+
+1. Login to ServiceNow.
+2. Navigate to:
+   System Definition → Client Scripts
+3. Click New.
+
+Configure:
+
+Name:
+Incident Resolution Validation
+
+Table:
+Incident [incident]
+
+UI Type:
+All
+
+Type:
+onSubmit
+
+Active:
+Yes
