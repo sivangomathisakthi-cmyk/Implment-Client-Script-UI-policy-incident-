@@ -1,0 +1,26 @@
+# Phase 1 - Project Setup
+
+## Project Title
+Implement Client Script & UI Policy (Incident)
+
+## Platform
+ServiceNow
+
+## Table
+Incident [incident]
+
+## Objective
+To improve Incident form behavior using Client Script
+and UI Policy.
+
+## Requirement
+When the Incident State is changed to Resolved:
+
+1. Resolution Notes should become mandatory.
+2. Resolution Code should become mandatory.
+
+## Technologies
+- ServiceNow
+- JavaScript
+- Client Script
+- UI Policy
