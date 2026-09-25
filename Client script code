@@ -1,0 +1,20 @@
+function onSubmit() {
+
+    var state = g_form.getValue('state');
+
+    // Check if Incident is being resolved
+    if (state == '6') {
+
+        var resolutionNotes = g_form.getValue('close_notes');
+        var resolutionCode = g_form.getValue('close_code');
+
+        if (!resolutionNotes || !resolutionCode) {
+
+            alert('Please enter Resolution Notes and Resolution Code before resolving the Incident.');
+
+            return false;
+        }
+    }
+
+    return true;
+}
