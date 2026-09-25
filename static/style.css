@@ -1,0 +1,116 @@
+```css
+/* General Page Style */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+/* Header */
+
+header {
+    background-color: #1f4e78;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Headings */
+
+h2 {
+    color: #1f4e78;
+    border-bottom: 2px solid #1f4e78;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #1f4e78;
+}
+
+
+/* Feature Boxes */
+
+.feature {
+    background-color: #eef5fb;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #1f4e78;
+    border-radius: 5px;
+}
+
+.feature p {
+    line-height: 1.6;
+}
+
+
+/* Technology List */
+
+ul {
+    line-height: 2;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1f4e78;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+}
+```
