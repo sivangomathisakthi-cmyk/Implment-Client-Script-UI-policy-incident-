@@ -1,0 +1,18 @@
+# Phase 7 - Validation
+
+## Validation Steps
+
+1. Open an Incident record.
+2. Change State to Resolved.
+3. Verify that Resolution Notes becomes mandatory.
+4. Verify that Resolution Code becomes mandatory.
+5. Try to submit without entering the fields.
+6. Verify that the Client Script displays an alert.
+7. Enter Resolution Notes.
+8. Enter Resolution Code.
+9. Submit the Incident.
+
+## Expected Result
+
+The Incident should be submitted only after the
+required resolution information is provided.
