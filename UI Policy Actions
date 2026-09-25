@@ -1,0 +1,60 @@
+# Phase 5 - UI Policy Actions
+
+## UI Policy
+
+Short Description:
+Make Resolution Fields Mandatory
+
+Table:
+Incident [incident]
+
+Condition:
+State is Resolved
+
+Active:
+Yes
+
+Reverse if false:
+Yes
+
+
+## UI Policy Action 1
+
+Field:
+Resolution notes
+
+Mandatory:
+True
+
+Visible:
+True
+
+Disabled:
+False
+
+
+## UI Policy Action 2
+
+Field:
+Resolution code
+
+Mandatory:
+True
+
+Visible:
+True
+
+Disabled:
+False
+
+
+## Expected Result
+
+When the Incident State is changed to Resolved:
+
+- Resolution Notes becomes mandatory.
+- Resolution Code becomes mandatory.
+
+When the State is changed back from Resolved:
+
+- The mandatory requirement is removed.
